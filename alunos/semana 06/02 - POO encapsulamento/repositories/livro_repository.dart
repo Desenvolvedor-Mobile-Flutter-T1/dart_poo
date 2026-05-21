@@ -1,5 +1,3 @@
-//so aqui pode enxergar a db
-//aqui devolve uma classe para view model
 import '../model/livro_model.dart';
 import '../service/db.dart';
 

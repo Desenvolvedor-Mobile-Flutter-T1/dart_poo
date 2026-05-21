@@ -1,7 +1,6 @@
-// debe conseguir enxergar o repository
 import '../repositories/livro_repository.dart';
 
-class LivroViewmodel {
+class LivroViewModel {
   final data = LivroRepository().getRepository();
   printData() => data.forEach(
     (element) => print(

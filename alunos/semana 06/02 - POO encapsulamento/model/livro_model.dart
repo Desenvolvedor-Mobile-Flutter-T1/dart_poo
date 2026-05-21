@@ -1,9 +1,9 @@
 class LivroModel {
-  String title;
-  String author;
-  int publicationAt;
-  String gender;
-  int pages;
+  final String title;
+  final String author;
+  final int publicationAt;
+  final String gender;
+  final int pages;
   LivroModel({
     required this.title,
     required this.author,
